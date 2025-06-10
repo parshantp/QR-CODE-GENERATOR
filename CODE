@@ -6,4 +6,18 @@ import qrcode
 qr = qrcode.make("My name is Parshant")
 qr.get_image()
 
-# -------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------
+
+# CREATING QR-CODE FOR A SITE
+
+qr = qrcode.make("https://www.alutechindia.org.in/")
+qr.get_image()
+
+# ------------------------------------------------------------------------------------------------------
+
+TO SAVE THIS QR-CODE
+
+x = "https://www.alutechindia.org.in/"
+qr = qrcode.make(x)
+qr.save("fimly_Member.png")
+print("QR code is generated!")
