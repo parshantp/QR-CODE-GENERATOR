@@ -1,6 +1,6 @@
 # GENERATE QR-CODE USING PYTHON
 # ------------------------------------------------------------------------------------------------------
-
+#
 import qrcode
 
 qr = qrcode.make("My name is Parshant")
